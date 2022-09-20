@@ -39,6 +39,9 @@ section#login{
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.556);
 
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
+
 }
 
 section#login > div#imagem{
@@ -54,3 +57,4 @@ section#login > div#formulario{
     display: block;
 
 }
+
