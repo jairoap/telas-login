@@ -42,3 +42,12 @@ aside h1{
 #btn_entrar{
     padding: 5px 10px;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+  
+  
+}
+
+ 
