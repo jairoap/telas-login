@@ -17,6 +17,7 @@ body{
 main{
     width: 35vw;
     height: 100vh;
+    padding: 0.9375rem;
    }
 
 aside{
