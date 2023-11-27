@@ -46,9 +46,10 @@ aside h1{
 
 form{
     display: flex;
-    flex-direction: column;
-  
-  
+    flex-direction: column; 
 }
 
+form input{
+    margin-bottom: 20px;
+}
  
