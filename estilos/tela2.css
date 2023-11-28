@@ -52,4 +52,7 @@ form{
 form input{
     margin-bottom: 20px;
 }
+label[for="nome"]{
+    margin-top: 20px;
+}
  
