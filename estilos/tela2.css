@@ -51,6 +51,8 @@ form{
 
 form input{
     margin-bottom: 20px;
+    font-size: 14.4px;
+    padding: 5px 5px;
 }
 label{
     margin-bottom: 4px;
