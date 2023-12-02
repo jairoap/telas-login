@@ -41,7 +41,8 @@ aside h1{
 
 
 #btn_entrar{
-    padding: 5px 10px;
+    padding: 10px 10px;
+    border: 1px solid #d2d2d2;
 }
 
 form{
@@ -54,12 +55,14 @@ form input{
     font-size: 14.4px;
     padding: 5px 5px;
 }
+
 label{
     margin-bottom: 4px;
     font-size: 14.4px;
     color:#a9a1a1;
     font-weight: 200;
 }
+
 label[for="nome"]{
     margin-top: 20px;
 }
