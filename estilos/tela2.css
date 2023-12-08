@@ -49,6 +49,12 @@ aside h1{
     text-align: center;
     color: white;
     background-color: #2D74B7;
+    transition: all 0.3s;
+}
+
+#autenticacao_integrada:hover{
+    background-color: #1f5384; 
+    transition: all 0.3s;
 }
 
 #btn_entrar{
