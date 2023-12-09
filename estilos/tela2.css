@@ -17,7 +17,7 @@ body{
 main{
     width: 35vw;
     height: 100vh;
-    padding: 0.9375rem;
+    padding: 45px;
    }
 
 aside{
@@ -43,6 +43,7 @@ aside h1{
 #autenticacao_integrada{
     width: 100%;
     padding: 7px;
+    margin-top: 65px;
     line-height: 35px;
     text-decoration: none;
     display: block;
@@ -50,6 +51,12 @@ aside h1{
     color: white;
     background-color: #2D74B7;
     transition: all 0.3s;
+}
+
+p{
+    color: #b2b2b2;
+    text-align: center;
+    font-size: 1rem;
 }
 
 #autenticacao_integrada:hover{
