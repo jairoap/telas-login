@@ -51,6 +51,7 @@ aside h1{
     color: white;
     background-color: #2D74B7;
     transition: all 0.3s;
+    border-radius: 0.225rem;
 }
 
 p{
