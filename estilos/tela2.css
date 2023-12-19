@@ -79,6 +79,23 @@ p{
     transition: all 0.3s;
 }
 
+/* Início do "OU" */
+.alternativa{
+    display: flex;
+    align-items: center;
+    color: #b2b2b2;
+}
+
+.alternativa hr{
+    width: 100%;
+}
+
+.alternativa span{
+    padding: 0 14px;
+}
+
+/* Fim do "OU" */
+
 #btn_entrar{
     padding: 10px 10px;
     border: 1px solid #d2d2d2;
