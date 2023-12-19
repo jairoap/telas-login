@@ -124,3 +124,13 @@ label[for="nome"]{
 p{
     margin: 23px 0;
 }
+
+@media (max-width: 576px){
+    aside{
+        display: none;
+    }
+
+    main{
+        width: 100%;
+    }
+}
