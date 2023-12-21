@@ -151,3 +151,9 @@ p{
         width: 100%;
     }
 }
+
+@media (min-width: 577px) and (max-width: 768px){
+    body{
+        background-color: red;
+    }
+}
