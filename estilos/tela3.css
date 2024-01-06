@@ -10,3 +10,13 @@ input{
     border-radius: 10px;
     border:none;
 }
+
+input[type="submit"]{
+    background-color: rgb(28, 153, 66);
+    color: white;
+    border-radius: 25px;
+    padding: 12px 0;
+    width: 9em;
+    letter-spacing: 2px;
+    margin-bottom: 2em;
+}
