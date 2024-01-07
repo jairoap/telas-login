@@ -20,3 +20,15 @@ input[type="submit"]{
     letter-spacing: 2px;
     margin-bottom: 2em;
 }
+
+input[type="text"],input[type="email"]{
+    border-radius: 25px;
+    padding-left: 15px;;
+    width: 80%;
+    
+}
+
+input[type="text"]:focus, input[type="email"]:focus{
+    background-color: rgb(221, 212, 212);
+     
+}
