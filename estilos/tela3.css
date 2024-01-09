@@ -32,3 +32,14 @@ input[type="text"]:focus, input[type="email"]:focus{
     background-color: rgb(221, 212, 212);
      
 }
+
+form{
+    background-image: linear-gradient(to right, #344, #908);
+    max-width: 40vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    min-height: 40vh;
+    padding-top: 35px;
+    border-radius: 10px;
+}
