@@ -43,3 +43,11 @@ form{
     padding-top: 35px;
     border-radius: 10px;
 }
+
+label{
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    font-family: 'Fredoka One',helvetica;
+    color: white;  
+}
