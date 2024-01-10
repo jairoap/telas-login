@@ -51,3 +51,12 @@ label{
     font-family: 'Fredoka One',helvetica;
     color: white;  
 }
+
+.redes-sociais{
+    max-width: 40vw;
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    margin-top: 1.2em;
+    line-height: 50px;
+}
