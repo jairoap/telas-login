@@ -65,3 +65,9 @@ label{
     margin-top: 1.2em;
     line-height: 50px;
 }
+
+.redes-sociais a i{ 
+    margin-right: 1em;
+    font-size: 1.6em;
+    color: #344;
+    }
