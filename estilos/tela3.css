@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #F2F2F2;
+    /* background-color: #F2F2F2; */
     background-color: #201c1c;
 }
 
@@ -82,4 +82,8 @@ label{
 
 .fa-instagram:hover{
     color:#B82FBF;
+}
+
+.fa-youtube:hover{
+    color:#FF0000;
 }
