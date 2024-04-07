@@ -103,6 +103,10 @@ form > input[type=submit]:hover{
     cursor: pointer;
 }
 
+.campo input[type=email]{  /* Foi só pra testar a especificidade do CSS, alterar depois */
+    width: 90%;
+}
+
 form > a.botao{
     display: block;
     text-align: center;
