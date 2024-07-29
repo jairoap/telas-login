@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="estilos/tela4.css">
     <title>Login</title>
 </head>
+
 <body>
 
 
-    <form action="">
-        <h3>Loga em sua plataforma</h3>
+    <form action="#">
+        <h3>Logar em sua plataforma</h3>
+
         <label for="email">E-mail</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" placeholder="nome@exemplo.com" required>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" required>
+
+        <div class="esqueciSenha">
+            <div>
+                <input type="checkbox" name="lembrar" id="lembrar"> Lembrar-me
+            </div>
+            <a href="#">Esqueceu a senha?</a>
+        </div>
+
+        <input type="submit" value="Entrar em sua conta">
+        <p>Não registrado? <a href="http://">Clique aqui</a></p>
+
     </form>
 
 
-    
+
 </body>
+
 </html>
