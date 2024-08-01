@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #020e69e7;
+    background-image: linear-gradient(#010629e7, #2737b0e7) ;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@ body{
 
 form{
     background-color: white;
-    padding: 20px 15px;
+    padding: 20px 25px;
     width: 25vw;
     height: 45vh;
     border-radius: 15px;
@@ -59,8 +59,12 @@ input[type="submit"]:hover{
     transition: all 0.3s;
 }
 
+#email:focus, #senha:focus{
+    box-shadow: 0 0 4px 0 #0a1ca4e7;
+}
+
 #email, #senha{
-    border: 1px solid #858282;
+    border: 1px solid #bebaba;
     border-radius: 5px;
 }
 
