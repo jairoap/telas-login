@@ -12,6 +12,7 @@
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
+    outline: none;
 }
 
 body, html{
@@ -69,14 +70,10 @@ form > div.campo{
     height: 37px;
     border-radius: 5px;
     margin: 5px 0;
+    padding-left: 4px;
+
 }
-/* Eu que fiz */
-/* div.campo > input{
-    height: 35px;
-    margin-top: 1px;
-    border-radius: 5px;
-    border: transparent;
-} */
+
  
 div.campo > label{
     display: none;
@@ -103,8 +100,33 @@ form > input[type=submit]:hover{
     cursor: pointer;
 }
 
-.campo input[type=email]{  /* Foi só pra testar a especificidade do CSS, alterar depois */
-    width: 90%;
+
+.campo input[type="email"]{  /* Foi só pra testar a especificidade do CSS, alterar depois */
+    width: 96%;
+    height: 100%;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+}
+
+.campo input[type=email]:focus{
+    border:1px solid #5f2c82;
+}
+
+.campo input[type="password"]{  
+    width: 95.5%;
+    height: 100%;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+}
+
+.campo input[type="password"]:focus{
+    border:1px solid #5f2c82;
+}
+
+.fa-user, .fa-key{
+    color: rgb(189, 185, 185);
 }
 
 form > a.botao{
@@ -130,4 +152,115 @@ form > a.botao > i{
 form > a.botao:hover{
     background-color: #64e2dc;
     transition: all 0.4s;
+}
+
+
+
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas Telas: até 600px
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: Acima de 1200px
+*/
+
+
+/* Versão celular */
+@media (max-width: 767px){
+
+    form > div.campo{
+        background-color: #5f2c82;
+        width: 96%;
+        padding-left: 4px;   
+    }
+
+    .campo input[type="email"] {   
+        width: 100%;
+        height: 100%;
+         
+    }
+
+     .campo input[type="password"]{
+        width: 100%;
+        height: 100%;
+     }
+
+     .fas.fa-user, .fas.fa-key{
+       display: none;
+    }
+}
+
+/* Versão Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+       float: right;
+       width: 70%;
+    }
+
+    form > div.campo{
+        background-color: #5f2c82;
+        width: 96%;
+        padding-left: 4px;
+        padding-right: 0px;
+    
+    }
+
+    .campo input[type="email"] {   
+        width: 95%;
+        height: 100%;
+    }
+
+     .campo input[type="password"]{
+        width: 94.5%;
+        height: 100%;
+     }
+
+}
+
+
+/* Telas Grandes */
+@media screen and (min-width: 993px){
+
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    
+    section#login{
+        width: 990px;
+    }
+
+    section#login > div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: left;
+        width: 50%;
+     }
+
+     div#formulario > p{
+        font-size: 1.2em;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
 }
