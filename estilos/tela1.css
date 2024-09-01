@@ -92,12 +92,17 @@ form > input[type=submit]{
     border: none;
     border-radius: 5px;
     transition: all 0.3s;
+    margin: 25px 0 0 0 ;
 }
 
 form > input[type=submit]:hover{
     background-color: #367875;
     transition: all 0.3s;
     cursor: pointer;
+}
+
+#formulario > p{
+    margin-bottom: 20px;
 }
 
 
@@ -189,6 +194,16 @@ Grandes Telas: Acima de 1200px
      .fas.fa-user, .fas.fa-key{
        display: none;
     }
+
+    #formulario > p{
+        margin-bottom: 10px;
+    }
+    
+    form > input[type=submit]{
+        margin: 14px 0 0 0;
+    }
+    
+
 }
 
 /* Versão Tablet */
