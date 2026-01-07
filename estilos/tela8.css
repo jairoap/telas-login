@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#4b6cb7,#b993d6,#6dd5ed,#cc2b5e);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.login-card {
+    width: 380px;
+    padding: 45px 35px;
+    border-radius: 28px;
+    background: rgba(40,40,55,0.78);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.45);
+    color: #e0e0e0;
+}
+
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.field svg {
+    width: 18px;
+    height: 18px;
+    fill: rgba(255,255,255,0.6);
+}
+
+.field input {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.field input::placeholder {
+    color: rgba(255,255,255,0.55);
+}
+
+.toggle-password {
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.options a {
+    color: rgba(255,255,255,0.6);
+    text-decoration: none;
+    font-style: italic;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 16px;
+    border-radius: 18px;
+    border: none;
+    background: rgba(255,255,255,0.22);
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: rgba(255,255,255,0.38);
+}
+
+.error {
+    color: #ffb3b3;
+    font-size: 13px;
+    margin-bottom: 15px;
+    display: none;
+}
