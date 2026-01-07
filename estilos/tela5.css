@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+:root{
+    --cor-body: #291131;
+    --cor-form1: #4D2652;
+    --cor-form2: #615797;
+}
+ 
 
 body{
     height: 100vh;
@@ -10,4 +18,32 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--cor-body);
+}
+
+.user_icon{
+    width: 130px;
+    height: 130px;
+    background-color: #6b4e558e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin: 20px auto;
+}
+.user_icon i{
+    font-size: 70px;
+    color:  #d7bcc268;
+}
+
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: none; 
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 3px #00000045;
+    padding: 40px;
+    background: linear-gradient(125deg, var(--cor-form1), var(--cor-form2));
 }
